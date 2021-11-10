@@ -23,8 +23,8 @@
 			  <span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-				<?php if(isset($_SESSION['login'])){ ?>
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">			    
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<?php if(isset($_SESSION['login'])){ ?>					    
 					<li class="nav-item text-center btn btn-outline-success rounded m-3">
 					  <a class="nav-link" href="#">Cadastro de Produtos</a>
 					</li>
